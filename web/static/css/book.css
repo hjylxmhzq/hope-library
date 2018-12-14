@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.title:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.description:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.link:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.summary:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.status:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.location:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.location:hover {
+    box-shadow: 1px 1px 8px 2px #ddd;
+}
+
+.title {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    color: rgb(56, 56, 56);
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.name {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    color: rgb(56, 56, 56);
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.cover {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+img {
+    border: solid 1px #eee;
+    border-radius: 20px;
+    box-shadow: 1px 1px 16px 8px #ddd;
+}
+
+.link {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.description {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.summary {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.status {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.location {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}
+
+.summarytext {
+    min-height: 300px;
+    min-width: 700px;
+    max-height: 320px;
+    max-width: 800px;
+}
+
+.inputsummary {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #eee;
+    text-align: center;
+    height: 50px;
+    min-height: 400px;
+    width: 1000px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px 1px #ddd;
+}

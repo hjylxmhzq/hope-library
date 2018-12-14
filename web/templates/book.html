@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{book['name']}}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/book.css" />
+</head>
+<body>
+    <div class='title'>{{book['name']}}</div>
+    <div class='cover'><img src="{{'/static/covers/'+book['index1']+'.jpg'}}" /></div>
+    <div class='link'>链接：{{book['bookurl']}}</div>
+    <div class='location'>所在位置：{{book['location']}}</div>
+    <div class='description'>{{book['description']}}</div>
+    <div class='summary'>内容简介：<br />{{book['summary']}}</div>
+    <div class='status'>状态：{{book['status']}}</div>
+</body>
+</html>

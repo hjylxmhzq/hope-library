@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>厚朴书柜</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery-ui.min.css" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+    <input id="search" name="search" />
+    <div id="result"></div>
+    {% for item in navigation %}
+        <div class="category"><a href="{{ item.href }}">{{ item.text }}</a></div>
+    {% endfor %}
+    <div class="category recommend"><a href="/recommend">书籍推荐</a></div>
+    </div>
+
+    <div class='books'>
+    {% if category!=None %}
+        {% for book in books %}
+            <div class="bookbox">
+                <a href={{'/book/'+book['index1']}}><img src={{'/static/covers/'+book["index1"]+'.jpg'}} alt="{{book["name"]}}" /></a>
+                <div class="bookcontent"><p class="title">{{book["name"]}}</p><br /><p class="description">{{book["description"]}}</p></div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+    <script src="/static/js/jquery-ui.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
